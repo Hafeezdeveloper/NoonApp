@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+@media (max-width:364px) and (min-width:282px) {
+  .fntSml{
+    font-size: 9px !important;
+  }
+}
+@media (max-width:282px) and (min-width:200px) {
+  .fntSml{
+    font-size: 8px !important;
+  }
+}
+@media (max-width:600px) and (min-width:200px) {
+  .xab0{
+   height: "100%" !important;
+  }
+}
+
+@media (max-width:900px) and (min-width:200px) {
+.swiper-button-next, .swiper-button-prev{ 
+    display: 'none ' !important;
+}
 }
